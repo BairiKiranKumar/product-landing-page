@@ -1,0 +1,128 @@
+body{
+    display: block;
+    font-weight: bold;
+}
+ div .wrapper{
+    position: relative;
+    margin-right: 50px;
+    display: block;
+}
+.wrapper-text{
+    position: absolute;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 40px;
+    color:darkblue;
+}
+header h1{
+    text-align: center;
+}
+table tr td{
+    padding: 0px;
+    text-align: center;
+}
+img{
+    float: left;
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 0px;
+    width: 666px;
+    height: 300px;
+}
+#button{
+    background-color: darkblue;
+    color: white;
+    padding : 10px;
+}
+footer{
+    margin: auto;
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 900px;
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.footer{
+    width: 100%;
+    color: white;
+    margin-right: 100px;
+}
+footer p{
+    text-align: center;
+}
+footer p a{
+    color: white;
+}
+/*responsive*/
+@media(max-width:600px){
+    body{
+        float: left;
+        font-weight: bold;
+    }
+     div .wrapper{
+        position: relative;
+        display: block;
+        text-align: center;
+        opacity: 0.89;
+    }
+    .wrapper-text{
+        position: absolute;
+        text-align: center;
+        margin-left: 50px;
+        margin-top: 40px;
+        height: 700px;
+        color:darkblue;
+    }
+    header{
+        margin: auto;
+        border: 1px solid black;
+        box-sizing: border-box;
+        width: 600px;
+        background-color: darkblue;
+    }
+    header h1{
+        text-align: center;
+        color: white;
+    }
+    table tr td{
+        padding: 0px;
+        text-align: center;
+    }
+    img{
+        float: left;
+        position: relative;
+        text-align: center;
+        margin-top: 100px;
+        margin-right: 0px;
+        width: 666px;
+        height: 300px;
+    }
+    #button{
+        background-color: darkblue;
+        color: white;
+        padding : 10px;
+    }
+    footer{
+        margin: auto;
+        border: 1px solid black;
+        box-sizing: border-box;
+        width: 600px;
+        background-color: black;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: 150px;
+    }
+    .footer{
+        width: 100%;
+        color: white;
+        margin-right: 100px;
+    }
+    footer p{
+        text-align: center;
+    }
+    footer p a{
+        color: white;
+    }
+}
